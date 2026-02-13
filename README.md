@@ -1,4 +1,19 @@
-# Career Management OS — Usage Guide
+# Career Management OS
+
+**An AI-powered system for managing your career credentials, from daily logs to final polished resumes.**
+
+This project implements a structured pipeline to draft, verify, review, and refine resumes, ensuring they are hallucination-free and impactful.
+
+## 💡 The Power of Claw-log
+
+While **Career Management OS** functions perfectly as a standalone tool, it is designed to synergize with **[claw-log](https://github.com/ahfmrptEkd/claw-log)**.
+
+- **Without claw-log**: You provide your career history manually.
+- **With claw-log**: typically, developers forget 90% of their daily problem-solving details. `claw-log` captures these daily tasks. This OS then consumes those rich daily logs to generate highly detailed, evidence-backed achievements that you might have otherwise forgotten. **It turns your daily grind into career gold.**
+
+---
+
+# Usage Guide
 
 ## Installation
 
@@ -57,20 +72,20 @@ project/
 
 ### Resume Pipeline (run in order)
 
-| # | Command | What it does |
-|---|---------|-------------|
-| 0 | `/sync-claw-log` | Imports claw-log dev records → applicantinfo.md (optional) |
-| 1 | `/draft-resume` | Generates 3 strategic resume versions |
-| 2 | `/verify-resume` | Fact-checks every claim against source data |
-| 3 | `/review-resume` | Expert evaluation on 5 dimensions |
-| 4 | `/refine-resume` | Merges best elements into final resume |
+| #   | Command          | What it does                                               |
+| --- | ---------------- | ---------------------------------------------------------- |
+| 0   | `/sync-claw-log` | Imports claw-log dev records → applicantinfo.md (optional) |
+| 1   | `/draft-resume`  | Generates 3 strategic resume versions                      |
+| 2   | `/verify-resume` | Fact-checks every claim against source data                |
+| 3   | `/review-resume` | Expert evaluation on 5 dimensions                          |
+| 4   | `/refine-resume` | Merges best elements into final resume                     |
 
 ### Standalone (run anytime)
 
-| Command | What it does | Requires web search |
-|---------|-------------|-------------------|
-| `/career-plan` | Gap analysis + career roadmap | ✅ Yes |
-| `/prep-interview` | Interview Q&A for target company | ✅ Yes |
+| Command           | What it does                     | Requires web search |
+| ----------------- | -------------------------------- | ------------------- |
+| `/career-plan`    | Gap analysis + career roadmap    | ✅ Yes              |
+| `/prep-interview` | Interview Q&A for target company | ✅ Yes              |
 
 ---
 
@@ -180,3 +195,16 @@ outcome/
 - **Language**: System instructions are in English (token-efficient). Resume output language is your choice — just tell the agent
 - **claw-log**: Daily records compound over time into powerful resume material
 - **Token efficiency**: All skill internals are English to minimize token usage; user-facing content (resume, Q&A) follows your preferred language
+
+---
+
+## 🔗 References & Inspiration
+
+This project was created with inspiration from the following resource:
+
+- **Core Concept**: [Documentation-driven Resume Engineering (LinkedIn Post)](https://www.linkedin.com/feed/update/urn:li:activity:7427324639552581632/?originTrackingId=BhCxOmnK57swQPBhWx%2F5Hw%3D%3D)
+
+**Claw-log Repositories:**
+
+- **[ahfmrptEkd/claw-log](https://github.com/ahfmrptEkd/claw-log)**: The customized fork used in this workflow (Recommended).
+- **[WooHyucks/claw-log](https://github.com/WooHyucks/claw-log)**: The original project.
