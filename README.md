@@ -17,6 +17,12 @@ While **Career Management OS** functions perfectly as a standalone tool, it is d
 
 ## Installation
 
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/career-management-os.git
+cd career-management-os
+```
+
 ### Antigravity IDE
 
 ```bash
@@ -27,12 +33,16 @@ cp -r career-management-os ~/.gemini/antigravity/skills/
 cp career-management-os/workflows/*.md ~/.gemini/antigravity/workflows/
 ```
 
+or Ask a gemini to apply this github repository skill
+
 ### Claude Code
 
 ```bash
 cp -r career-management-os ~/.claude/skills/
 cp career-management-os/workflows/*.md .claude/commands/
 ```
+
+or Ask a claude to apply this github repository skill
 
 ### Cursor
 
