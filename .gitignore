@@ -3,3 +3,8 @@
 /.omc
 /.agents
 /.gemini
+
+# Usage-directory
+instruction/
+outcome/
+src/
