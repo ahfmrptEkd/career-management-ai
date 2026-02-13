@@ -1,0 +1,6 @@
+{
+  "name": "career-management-os",
+  "description": "A career management system with 7 commands: resume pipeline (sync, draft, verify, review, refine), career planning, and interview prep. Produces hallucination-free resumes through a structured pipeline.",
+  "version": "1.0.0",
+  "commands": "./career-management-os/workflows/"
+}

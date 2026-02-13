@@ -1,0 +1,24 @@
+{
+  "name": "career-management-os",
+  "owner": {
+    "name": "ahfmrptEkd"
+  },
+  "metadata": {
+    "description": "AI-powered career management tools for hallucination-free resume generation, career planning, and interview prep"
+  },
+  "plugins": [
+    {
+      "name": "career-management-os",
+      "source": ".",
+      "description": "7 commands for a structured resume pipeline (draft → verify → review → refine), career roadmap planning, and interview prep. Integrates with claw-log for daily dev tracking.",
+      "version": "1.0.0",
+      "author": {
+        "name": "ahfmrptEkd"
+      },
+      "repository": "https://github.com/ahfmrptEkd/career-management-ai",
+      "license": "MIT",
+      "keywords": ["resume", "career", "interview", "job-search", "claw-log"],
+      "category": "productivity"
+    }
+  ]
+}
