@@ -44,6 +44,14 @@ cp career-management-os/workflows/*.md .claude/commands/
 
 or Ask a claude to apply this github repository skill
 
+or Add this repository as a plugin
+
+```bash
+/plugin marketplace add ahfmrptEkd/career-management-ai
+
+/plugin install career-management-os@career-management-os
+```
+
 ### Cursor
 
 ```bash
